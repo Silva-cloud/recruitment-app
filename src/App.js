@@ -6,7 +6,7 @@ import './App.css';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="recruitment-app">
       <div className="App bg-[#151719] h-full w-full box-border">
         <Header />
         <Routes>
